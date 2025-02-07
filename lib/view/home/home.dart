@@ -12,6 +12,15 @@ class HomeScreen extends StatelessWidget {
         title: Text('Lendo Help Desk',
             style: TextStyle(
                 color: white, fontSize: 17, fontWeight: FontWeight.w600)),
+        actions: [
+          IconButton(
+            icon: Icon(
+              Icons.more_vert,
+              color: white,
+            ),
+            onPressed: () {},
+          )
+        ],
       ),
     );
   }
