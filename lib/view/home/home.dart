@@ -8,7 +8,11 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldKey,
-      endDrawer: Drawer(),
+      endDrawer: Drawer(
+        child: ListView(
+          children: [],
+        ),
+      ),
       appBar: AppBar(
         backgroundColor: mainBlue,
         title: Text('Lendo Help Desk',
