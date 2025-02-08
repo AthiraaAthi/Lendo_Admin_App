@@ -18,6 +18,9 @@ class HomeScreen extends StatelessWidget {
               radius: 50,
               backgroundColor: mainBlue,
             ),
+          ),
+          SizedBox(
+            height: 80,
           )
         ],
       )
