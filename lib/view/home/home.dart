@@ -9,20 +9,29 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       key: _scaffoldKey,
       endDrawer: Drawer(
-        child: ListView(
-          children: [
-            UserAccountsDrawerHeader(
-              accountName: Text("Athira H"),
-              accountEmail: Text("athira@example.com"),
-              currentAccountPicture: CircleAvatar(
-                backgroundColor: Colors.white,
-                child: Text("A", style: TextStyle(fontSize: 24.0)),
-              ),
-              decoration: BoxDecoration(color: Colors.blue),
-            ),
-          ],
-        ),
-      ),
+          child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          CircleAvatar(
+            radius: 50,
+            backgroundColor: mainBlue,
+          )
+        ],
+      )
+          //  ListView(
+          //   children: [
+          //     UserAccountsDrawerHeader(
+          //       accountName: Text("Athira H"),
+          //       accountEmail: Text("athira@example.com"),
+          //       currentAccountPicture: CircleAvatar(
+          //         backgroundColor: Colors.white,
+          //         child: Text("A", style: TextStyle(fontSize: 24.0)),
+          //       ),
+          //       decoration: BoxDecoration(color: Colors.blue),
+          //     ),
+          //   ],
+          // ),
+          ),
       appBar: AppBar(
         backgroundColor: mainBlue,
         title: Text('Lendo Help Desk',
