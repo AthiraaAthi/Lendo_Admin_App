@@ -31,7 +31,10 @@ class HomeScreen extends StatelessWidget {
                   "Accepted files",
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
                 ),
-                Icon(Icons.arrow_right)
+                Icon(
+                  Icons.arrow_right,
+                  size: 30,
+                )
               ],
             )
           ],
