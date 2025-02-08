@@ -18,6 +18,7 @@ class HomeScreen extends StatelessWidget {
                 backgroundColor: Colors.white,
                 child: Text("A", style: TextStyle(fontSize: 24.0)),
               ),
+              decoration: BoxDecoration(color: Colors.blue),
             ),
           ],
         ),
