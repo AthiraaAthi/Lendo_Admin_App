@@ -26,7 +26,13 @@ class HomeScreen extends StatelessWidget {
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [Text("Accepted files"), Icon(Icons.arrow_right)],
+              children: [
+                Text(
+                  "Accepted files",
+                  style: TextStyle(),
+                ),
+                Icon(Icons.arrow_right)
+              ],
             )
           ],
         ),
