@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 Text(
                   "Accepted files",
-                  style: TextStyle(),
+                  style: TextStyle(fontSize: 17),
                 ),
                 Icon(Icons.arrow_right)
               ],
