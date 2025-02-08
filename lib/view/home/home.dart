@@ -34,7 +34,9 @@ class HomeScreen extends StatelessWidget {
               Icons.more_vert,
               color: white,
             ),
-            onPressed: () {},
+            onPressed: () {
+              _scaffoldKey.currentState?.openEndDrawer();
+            },
           )
         ],
       ),
