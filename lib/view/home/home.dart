@@ -10,7 +10,12 @@ class HomeScreen extends StatelessWidget {
       key: _scaffoldKey,
       endDrawer: Drawer(
         child: ListView(
-          children: [],
+          children: [
+            UserAccountsDrawerHeader(
+              accountName: Text("Athira H"),
+              accountEmail: Text("athira@example.com"),
+            ),
+          ],
         ),
       ),
       appBar: AppBar(
