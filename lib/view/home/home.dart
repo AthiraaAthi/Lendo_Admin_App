@@ -9,23 +9,27 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       key: _scaffoldKey,
       endDrawer: Drawer(
-          child: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: CircleAvatar(
-              radius: 50,
-              backgroundColor: mainBlue,
+          child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: CircleAvatar(
+                radius: 50,
+                backgroundColor: mainBlue,
+              ),
             ),
-          ),
-          SizedBox(
-            height: 80,
-          ),
-          Row(
-            children: [Text("Accepted files"), Icon(Icons.arrow_right)],
-          )
-        ],
+            SizedBox(
+              height: 80,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [Text("Accepted files"), Icon(Icons.arrow_right)],
+            )
+          ],
+        ),
       )
           //  ListView(
           //   children: [
