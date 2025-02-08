@@ -14,6 +14,10 @@ class HomeScreen extends StatelessWidget {
             UserAccountsDrawerHeader(
               accountName: Text("Athira H"),
               accountEmail: Text("athira@example.com"),
+              currentAccountPicture: CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Text("A", style: TextStyle(fontSize: 24.0)),
+              ),
             ),
           ],
         ),
