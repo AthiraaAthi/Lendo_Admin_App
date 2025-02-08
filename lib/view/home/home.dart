@@ -23,9 +23,7 @@ class HomeScreen extends StatelessWidget {
             height: 80,
           ),
           Row(
-            children: [
-              Text("Accepted files"),
-            ],
+            children: [Text("Accepted files"), Icon(Icons.arrow_right)],
           )
         ],
       )
