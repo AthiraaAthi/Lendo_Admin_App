@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
           SizedBox(
             height: 80,
           ),
-          Text("")
+          Text("Accepted files")
         ],
       )
           //  ListView(
