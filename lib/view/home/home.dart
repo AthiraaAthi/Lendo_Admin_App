@@ -88,7 +88,14 @@ class HomeScreen extends StatelessWidget {
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [Text("cds"), Icon(Icons.arrow_right)],
+                children: [
+                  Column(
+                    children: [
+                      Text("Name"),
+                    ],
+                  ),
+                  Icon(Icons.arrow_right)
+                ],
               ),
             )
           ],
