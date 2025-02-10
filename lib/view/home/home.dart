@@ -79,6 +79,7 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             ListView.builder(
+              shrinkWrap: true,
               itemBuilder: (context, index) => Container(
                 padding: EdgeInsets.all(15),
                 height: 100,
