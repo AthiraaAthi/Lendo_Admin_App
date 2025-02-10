@@ -90,8 +90,11 @@ class HomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("Name"),
+                      Text("Problem ......"),
                     ],
                   ),
                   Icon(Icons.arrow_right)
