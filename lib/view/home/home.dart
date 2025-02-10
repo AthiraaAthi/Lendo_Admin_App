@@ -74,7 +74,12 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
       body: Column(
-        children: [],
+        children: [
+          Container(
+            height: 100,
+            width: double.infinity,
+          )
+        ],
       ),
     );
   }
