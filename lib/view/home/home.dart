@@ -39,21 +39,7 @@ class HomeScreen extends StatelessWidget {
             )
           ],
         ),
-      )
-          //  ListView(
-          //   children: [
-          //     UserAccountsDrawerHeader(
-          //       accountName: Text("Athira H"),
-          //       accountEmail: Text("athira@example.com"),
-          //       currentAccountPicture: CircleAvatar(
-          //         backgroundColor: Colors.white,
-          //         child: Text("A", style: TextStyle(fontSize: 24.0)),
-          //       ),
-          //       decoration: BoxDecoration(color: Colors.blue),
-          //     ),
-          //   ],
-          // ),
-          ),
+      )),
       appBar: AppBar(
         backgroundColor: mainBlue,
         title: Text('Lendo Help Desk',
