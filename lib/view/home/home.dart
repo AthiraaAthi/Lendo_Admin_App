@@ -73,13 +73,20 @@ class HomeScreen extends StatelessWidget {
           )
         ],
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 100,
-            width: double.infinity,
-          )
-        ],
+      body: Padding(
+        padding:
+            const EdgeInsets.only(top: 50, left: 15, right: 15, bottom: 15),
+        child: Column(
+          children: [
+            Container(
+              height: 100,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                color: Colors.grey,
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
