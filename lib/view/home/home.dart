@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 Text(
                   "Accepted files",
-                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
                 ),
                 Icon(
                   Icons.arrow_right,
@@ -40,7 +40,19 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            Row(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Completed files",
+                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
+                ),
+                Icon(
+                  Icons.arrow_right,
+                  size: 30,
+                )
+              ],
+            ),
           ],
         ),
       )),
