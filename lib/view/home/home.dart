@@ -14,12 +14,12 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: CircleAvatar(
-                radius: 50,
-                backgroundColor: mainBlue,
-              ),
+            SizedBox(
+              height: 30,
+            ),
+            CircleAvatar(
+              radius: 60,
+              backgroundColor: mainBlue,
             ),
             SizedBox(
               height: 80,
