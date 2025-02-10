@@ -79,11 +79,16 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             Container(
+              padding: EdgeInsets.all(15),
               height: 100,
               width: double.infinity,
               decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 206, 204, 204),
                 borderRadius: BorderRadius.circular(10),
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [Text("cds"), Icon(Icons.arrow_right)],
               ),
             )
           ],
