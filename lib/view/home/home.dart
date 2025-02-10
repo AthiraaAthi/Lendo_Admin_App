@@ -75,30 +75,32 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Padding(
         padding:
-            const EdgeInsets.only(top: 50, left: 15, right: 15, bottom: 15),
+            const EdgeInsets.only(top: 40, left: 15, right: 15, bottom: 15),
         child: Column(
           children: [
-            Container(
-              padding: EdgeInsets.all(15),
-              height: 100,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                color: Colors.blueGrey[100],
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("Name"),
-                      Text("Problem ......"),
-                    ],
-                  ),
-                  Icon(Icons.arrow_right)
-                ],
+            ListView.builder(
+              itemBuilder: (context, index) => Container(
+                padding: EdgeInsets.all(15),
+                height: 100,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: Colors.blueGrey[100],
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Name"),
+                        Text("Problem ......"),
+                      ],
+                    ),
+                    Icon(Icons.arrow_right)
+                  ],
+                ),
               ),
             )
           ],
