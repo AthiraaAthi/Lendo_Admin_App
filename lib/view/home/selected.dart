@@ -8,7 +8,12 @@ class SelectedPerson extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+        leading: IconButton(
+            onPressed: () {},
+            icon: Icon(
+              Icons.arrow_back,
+              color: white,
+            )),
         backgroundColor: mainBlue,
         title: Text(
           "State Your Issue",
