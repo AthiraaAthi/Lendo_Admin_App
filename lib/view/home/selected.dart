@@ -11,7 +11,8 @@ class SelectedPerson extends StatelessWidget {
         backgroundColor: mainBlue,
         title: Text(
           "State Your Issue",
-          style: TextStyle(color: white, fontSize: 18),
+          style: TextStyle(
+              color: white, fontSize: 18, fontWeight: FontWeight.w500),
         ),
       ),
     );
