@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lendo_admin/utils/color_constant/color_constant.dart';
+import 'package:lendo_admin/view/home/selected.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
@@ -83,7 +84,13 @@ class HomeScreen extends StatelessWidget {
               shrinkWrap: true,
               itemCount: 4,
               itemBuilder: (context, index) => InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SelectedPerson(),
+                      ));
+                },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
