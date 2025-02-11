@@ -9,7 +9,10 @@ class SelectedPerson extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: mainBlue,
-        title: Text("Let Us Know What's Bothering You"),
+        title: Text(
+          "Let Us Know What's Bothering You",
+          style: TextStyle(),
+        ),
       ),
     );
   }
