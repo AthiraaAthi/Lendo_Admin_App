@@ -11,7 +11,7 @@ class SelectedPerson extends StatelessWidget {
         backgroundColor: mainBlue,
         title: Text(
           "Let Us Know What's Bothering You",
-          style: TextStyle(),
+          style: TextStyle(color: white),
         ),
       ),
     );
