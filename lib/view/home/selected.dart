@@ -10,8 +10,8 @@ class SelectedPerson extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: mainBlue,
         title: Text(
-          "Let Us Know What's Bothering You",
-          style: TextStyle(color: white),
+          "State Your Issue",
+          style: TextStyle(color: white, fontSize: 18),
         ),
       ),
     );
