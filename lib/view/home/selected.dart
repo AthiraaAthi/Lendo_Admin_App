@@ -9,6 +9,7 @@ class SelectedPerson extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: mainBlue,
+        title: Text(""),
       ),
     );
   }
