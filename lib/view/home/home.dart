@@ -74,8 +74,9 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
       body: Padding(
-        padding:
-            const EdgeInsets.only(top: 40, left: 15, right: 15, bottom: 15),
+        padding: const EdgeInsets.only(
+          top: 40,
+        ),
         child: Column(
           children: [
             ListView.builder(
@@ -83,27 +84,30 @@ class HomeScreen extends StatelessWidget {
               itemCount: 4,
               itemBuilder: (context, index) => InkWell(
                 onTap: () {},
-                child: Container(
-                  padding: EdgeInsets.all(15),
-                  height: 100,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: Colors.blueGrey[100],
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text("Name"),
-                          Text("Problem ......"),
-                        ],
-                      ),
-                      Icon(Icons.arrow_right)
-                    ],
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    padding: EdgeInsets.all(15),
+                    height: 100,
+                    width: double.infinity,
+                    decoration: BoxDecoration(
+                      color: Colors.blueGrey[100],
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Name"),
+                            Text("Problem ......"),
+                          ],
+                        ),
+                        Icon(Icons.arrow_right)
+                      ],
+                    ),
                   ),
                 ),
               ),
