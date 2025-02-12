@@ -26,7 +26,9 @@ class SelectedPerson extends StatelessWidget {
       body: Column(
         children: [
           TextField(
-            decoration: InputDecoration(),
+            decoration: InputDecoration(
+              hintText: "Person Name:",
+            ),
           )
         ],
       ),
