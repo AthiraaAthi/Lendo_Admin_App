@@ -29,10 +29,10 @@ class SelectedPerson extends StatelessWidget {
             decoration: InputDecoration(
                 hintText: "Person Name:",
                 hintStyle: TextStyle(
-                  color: Colors.grey,
                   fontSize: 14,
                 ),
-                fillColor: Colors.grey,
+                filled: true,
+                fillColor: const Color.fromARGB(255, 232, 230, 230),
                 border: InputBorder.none),
           )
         ],
