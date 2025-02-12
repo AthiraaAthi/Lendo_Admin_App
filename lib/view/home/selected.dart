@@ -23,21 +23,24 @@ class SelectedPerson extends StatelessWidget {
               color: white, fontSize: 18, fontWeight: FontWeight.w500),
         ),
       ),
-      body: Column(
-        children: [
-          TextField(
-            decoration: InputDecoration(
-                hintText: "Person Name:",
-                hintStyle: TextStyle(
-                  fontSize: 14,
-                ),
-                filled: true,
-                fillColor: const Color.fromARGB(255, 232, 230, 230),
-                border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide.none)),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(15),
+        child: Column(
+          children: [
+            TextField(
+              decoration: InputDecoration(
+                  hintText: "Person Name:",
+                  hintStyle: TextStyle(
+                    fontSize: 14,
+                  ),
+                  filled: true,
+                  fillColor: const Color.fromARGB(255, 232, 230, 230),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: BorderSide.none)),
+            )
+          ],
+        ),
       ),
     );
   }
