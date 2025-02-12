@@ -48,6 +48,8 @@ class SelectedPerson extends StatelessWidget {
                 hintStyle: TextStyle(
                   fontSize: 14,
                 ),
+                filled: true,
+                fillColor: const Color.fromARGB(255, 232, 230, 230),
               ),
             ),
           ],
