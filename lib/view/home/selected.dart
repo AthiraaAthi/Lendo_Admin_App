@@ -44,13 +44,15 @@ class SelectedPerson extends StatelessWidget {
             ),
             TextField(
               decoration: InputDecoration(
-                hintText: "Phone Number:",
-                hintStyle: TextStyle(
-                  fontSize: 14,
-                ),
-                filled: true,
-                fillColor: const Color.fromARGB(255, 232, 230, 230),
-              ),
+                  hintText: "Phone Number:",
+                  hintStyle: TextStyle(
+                    fontSize: 14,
+                  ),
+                  filled: true,
+                  fillColor: const Color.fromARGB(255, 232, 230, 230),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: BorderSide.none)),
             ),
           ],
         ),
