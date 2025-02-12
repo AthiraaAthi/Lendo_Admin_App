@@ -56,10 +56,16 @@ class SelectedPerson extends StatelessWidget {
               height: 15,
             ),
             TextField(
+              maxLines: 6,
               decoration: InputDecoration(
-                hintText: "What's the issue:",
-                hintStyle: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
-              ),
+                  hintText: "What's the issue:",
+                  hintStyle:
+                      TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
+                  filled: true,
+                  fillColor: const Color.fromARGB(255, 232, 230, 230),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: BorderSide.none)),
             ),
           ],
         ),
