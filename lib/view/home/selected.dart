@@ -30,9 +30,8 @@ class SelectedPerson extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                   hintText: "Person Name:",
-                  hintStyle: TextStyle(
-                    fontSize: 14,
-                  ),
+                  hintStyle:
+                      TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
                   filled: true,
                   fillColor: const Color.fromARGB(255, 232, 230, 230),
                   border: OutlineInputBorder(
@@ -45,9 +44,8 @@ class SelectedPerson extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                   hintText: "Phone Number:",
-                  hintStyle: TextStyle(
-                    fontSize: 14,
-                  ),
+                  hintStyle:
+                      TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
                   filled: true,
                   fillColor: const Color.fromARGB(255, 232, 230, 230),
                   border: OutlineInputBorder(
