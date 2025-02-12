@@ -27,12 +27,13 @@ class SelectedPerson extends StatelessWidget {
         children: [
           TextField(
             decoration: InputDecoration(
-              hintText: "Person Name:",
-              hintStyle: TextStyle(
-                color: Colors.grey,
-                fontSize: 14,
-              ),
-            ),
+                hintText: "Person Name:",
+                hintStyle: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 14,
+                ),
+                fillColor: Colors.grey,
+                border: InputBorder.none),
           )
         ],
       ),
