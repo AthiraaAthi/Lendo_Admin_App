@@ -33,7 +33,9 @@ class SelectedPerson extends StatelessWidget {
                 ),
                 filled: true,
                 fillColor: const Color.fromARGB(255, 232, 230, 230),
-                border: InputBorder.none),
+                border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10),
+                    borderSide: BorderSide.none)),
           )
         ],
       ),
