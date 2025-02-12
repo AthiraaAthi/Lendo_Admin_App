@@ -55,7 +55,12 @@ class SelectedPerson extends StatelessWidget {
             SizedBox(
               height: 15,
             ),
-            TextField(),
+            TextField(
+              decoration: InputDecoration(
+                hintText: "What's the issue:",
+                hintStyle: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+              ),
+            ),
           ],
         ),
       ),
