@@ -24,7 +24,11 @@ class SelectedPerson extends StatelessWidget {
         ),
       ),
       body: Column(
-        children: [TextField()],
+        children: [
+          TextField(
+            decoration: InputDecoration(),
+          )
+        ],
       ),
     );
   }
