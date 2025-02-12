@@ -45,6 +45,9 @@ class SelectedPerson extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                 hintText: "Phone Number:",
+                hintStyle: TextStyle(
+                  fontSize: 14,
+                ),
               ),
             ),
           ],
