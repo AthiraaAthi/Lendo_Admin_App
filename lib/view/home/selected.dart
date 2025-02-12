@@ -28,6 +28,10 @@ class SelectedPerson extends StatelessWidget {
           TextField(
             decoration: InputDecoration(
               hintText: "Person Name:",
+              hintStyle: TextStyle(
+                color: Colors.grey,
+                fontSize: 14,
+              ),
             ),
           )
         ],
