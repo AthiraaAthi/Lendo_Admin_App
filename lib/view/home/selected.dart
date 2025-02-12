@@ -39,7 +39,7 @@ class SelectedPerson extends StatelessWidget {
                       borderSide: BorderSide.none)),
             ),
             SizedBox(
-              height: 10,
+              height: 15,
             ),
             TextField(
               decoration: InputDecoration(
@@ -52,6 +52,10 @@ class SelectedPerson extends StatelessWidget {
                       borderRadius: BorderRadius.circular(8),
                       borderSide: BorderSide.none)),
             ),
+            SizedBox(
+              height: 15,
+            ),
+            TextField(),
           ],
         ),
       ),
