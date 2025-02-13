@@ -71,7 +71,13 @@ class SelectedPerson extends StatelessWidget {
               height: 70,
             ),
             Row(
-              children: [],
+              children: [
+                ElevatedButton(
+                  onPressed: () {},
+                  child: Text("Accept"),
+                  style: ButtonStyle(),
+                )
+              ],
             )
           ],
         ),
