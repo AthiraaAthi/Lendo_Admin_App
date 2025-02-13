@@ -71,6 +71,7 @@ class SelectedPerson extends StatelessWidget {
               height: 100,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
                   onPressed: () {},
