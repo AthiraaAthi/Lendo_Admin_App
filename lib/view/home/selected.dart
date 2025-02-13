@@ -76,7 +76,7 @@ class SelectedPerson extends StatelessWidget {
                   onPressed: () {},
                   child: Text(
                     "Accept",
-                    style: TextStyle(),
+                    style: TextStyle(color: white),
                   ),
                   style: ButtonStyle(
                       backgroundColor: WidgetStatePropertyAll(mainBlue)),
