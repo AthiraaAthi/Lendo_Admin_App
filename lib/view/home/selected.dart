@@ -89,6 +89,7 @@ class SelectedPerson extends StatelessWidget {
                     "Reject",
                     style: TextStyle(color: white),
                   ),
+                  style: ButtonStyle(),
                 ),
               ],
             )
