@@ -82,7 +82,14 @@ class SelectedPerson extends StatelessWidget {
                       shape: WidgetStatePropertyAll(RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(8))),
                       backgroundColor: WidgetStatePropertyAll(mainBlue)),
-                )
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  child: Text(
+                    "Reject",
+                    style: TextStyle(color: white),
+                  ),
+                ),
               ],
             )
           ],
