@@ -70,6 +70,9 @@ class SelectedPerson extends StatelessWidget {
             SizedBox(
               height: 70,
             ),
+            Row(
+              children: [],
+            )
           ],
         ),
       ),
