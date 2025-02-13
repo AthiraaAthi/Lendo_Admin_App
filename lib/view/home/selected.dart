@@ -90,8 +90,12 @@ class SelectedPerson extends StatelessWidget {
                     style: TextStyle(color: white),
                   ),
                   style: ButtonStyle(
-                    shape: WidgetStatePropertyAll(RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8))),
+                    backgroundColor: WidgetStatePropertyAll(
+                        const Color.fromARGB(255, 221, 12, 12)),
+                    shape: WidgetStatePropertyAll(
+                      RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8)),
+                    ),
                   ),
                 ),
               ],
