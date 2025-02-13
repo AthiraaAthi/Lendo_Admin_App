@@ -47,7 +47,7 @@ class SelectedPerson extends StatelessWidget {
                   hintStyle:
                       TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
                   filled: true,
-                  fillColor: const Color.fromARGB(255, 221, 224, 225),
+                  fillColor: lightBlue,
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
                       borderSide: BorderSide.none)),
@@ -62,7 +62,7 @@ class SelectedPerson extends StatelessWidget {
                   hintStyle:
                       TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
                   filled: true,
-                  fillColor: const Color.fromARGB(255, 221, 224, 225),
+                  fillColor: lightBlue,
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
                       borderSide: BorderSide.none)),
