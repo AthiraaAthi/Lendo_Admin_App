@@ -74,7 +74,10 @@ class SelectedPerson extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () {},
-                  child: Text("Accept"),
+                  child: Text(
+                    "Accept",
+                    style: TextStyle(),
+                  ),
                   style: ButtonStyle(
                       backgroundColor: WidgetStatePropertyAll(mainBlue)),
                 )
