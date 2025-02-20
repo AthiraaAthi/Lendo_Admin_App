@@ -8,6 +8,7 @@ class AcceptedFiles extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: mainBlue,
         leading: IconButton(
             onPressed: () {
               Navigator.pop(context);
