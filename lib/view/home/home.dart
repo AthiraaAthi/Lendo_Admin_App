@@ -25,18 +25,21 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 80,
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  "Accepted files",
-                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
-                ),
-                Icon(
-                  Icons.arrow_right,
-                  size: 30,
-                )
-              ],
+            InkWell(
+              onTap: () {},
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Accepted files",
+                    style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500),
+                  ),
+                  Icon(
+                    Icons.arrow_right,
+                    size: 30,
+                  )
+                ],
+              ),
             ),
             SizedBox(
               height: 20,
