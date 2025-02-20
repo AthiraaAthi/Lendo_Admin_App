@@ -17,6 +17,7 @@ class AcceptedFiles extends StatelessWidget {
               Icons.arrow_back_ios,
               color: white,
             )),
+        title: Text(""),
       ),
     );
   }
