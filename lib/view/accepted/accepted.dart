@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lendo_admin/utils/color_constant/color_constant.dart';
 
 class AcceptedFiles extends StatelessWidget {
   const AcceptedFiles({super.key});
@@ -6,7 +7,16 @@ class AcceptedFiles extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        leading: IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(
+              Icons.arrow_back_ios,
+              color: white,
+            )),
+      ),
     );
   }
 }
