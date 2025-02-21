@@ -29,6 +29,11 @@ class AcceptedFiles extends StatelessWidget {
               child: Container(
                 padding: EdgeInsets.all(15),
                 height: 100,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: lightBlue,
+                  borderRadius: BorderRadius.circular(10),
+                ),
               ),
             ),
           )
