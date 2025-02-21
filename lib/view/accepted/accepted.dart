@@ -24,7 +24,10 @@ class AcceptedFiles extends StatelessWidget {
       body: Column(
         children: [
           ListView.builder(
-            itemBuilder: (context, index) => Container(),
+            itemBuilder: (context, index) => Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(),
+            ),
           )
         ],
       ),
