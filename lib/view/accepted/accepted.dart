@@ -21,6 +21,9 @@ class AcceptedFiles extends StatelessWidget {
             style: TextStyle(
                 color: white, fontSize: 18, fontWeight: FontWeight.w500)),
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
