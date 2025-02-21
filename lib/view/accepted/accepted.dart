@@ -38,7 +38,9 @@ class AcceptedFiles extends StatelessWidget {
                     color: lightBlue,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: Row(),
+                  child: Row(
+                    children: [],
+                  ),
                 ),
               ),
             ),
