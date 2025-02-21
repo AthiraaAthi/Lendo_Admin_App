@@ -22,7 +22,11 @@ class AcceptedFiles extends StatelessWidget {
                 color: white, fontSize: 18, fontWeight: FontWeight.w500)),
       ),
       body: Column(
-        children: [],
+        children: [
+          ListView.builder(
+            itemBuilder: (context, index) => Container(),
+          )
+        ],
       ),
     );
   }
