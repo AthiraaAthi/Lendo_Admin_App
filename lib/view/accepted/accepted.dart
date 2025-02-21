@@ -40,7 +40,11 @@ class AcceptedFiles extends StatelessWidget {
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [Column()],
+                    children: [
+                      Column(
+                        children: [],
+                      )
+                    ],
                   ),
                 ),
               ),
