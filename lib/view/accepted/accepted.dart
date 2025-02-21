@@ -21,38 +21,47 @@ class AcceptedFiles extends StatelessWidget {
             style: TextStyle(
                 color: white, fontSize: 18, fontWeight: FontWeight.w500)),
       ),
-      body: Column(
-        children: [
-          ListView.builder(
-            shrinkWrap: true,
-            itemCount: 4,
-            itemBuilder: (context, index) => InkWell(
-              onTap: () {},
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  padding: EdgeInsets.all(15),
-                  height: 100,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    color: lightBlue,
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [],
-                      )
-                    ],
+      body: Padding(
+        padding: const EdgeInsets.only(
+          top: 40,
+        ),
+        child: Column(
+          children: [
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: 4,
+              itemBuilder: (context, index) => InkWell(
+                onTap: () {},
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    padding: EdgeInsets.all(15),
+                    height: 100,
+                    width: double.infinity,
+                    decoration: BoxDecoration(
+                      color: lightBlue,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Name"),
+                            Text("Problem ......"),
+                          ],
+                        ),
+                        Icon(Icons.arrow_right)
+                      ],
+                    ),
                   ),
                 ),
               ),
-            ),
-          )
-        ],
+            )
+          ],
+        ),
       ),
     );
   }
