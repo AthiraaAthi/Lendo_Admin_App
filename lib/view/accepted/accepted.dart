@@ -25,6 +25,7 @@ class AcceptedFiles extends StatelessWidget {
         children: [
           ListView.builder(
             itemBuilder: (context, index) => InkWell(
+              onTap: () {},
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
