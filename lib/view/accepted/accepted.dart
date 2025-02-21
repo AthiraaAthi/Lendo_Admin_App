@@ -39,6 +39,7 @@ class AcceptedFiles extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [],
                   ),
                 ),
