@@ -49,7 +49,10 @@ class CompletedFiles extends StatelessWidget {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [],
+                                children: [
+                                  Text("Name"),
+                                  Text("Problem ......"),
+                                ],
                               ),
                               Icon(Icons.arrow_right)
                             ],
