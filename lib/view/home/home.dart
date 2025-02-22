@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lendo_admin/utils/color_constant/color_constant.dart';
 import 'package:lendo_admin/view/accepted/accepted.dart';
+import 'package:lendo_admin/view/completed/completed.dart';
 import 'package:lendo_admin/view/home/selected.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -52,7 +53,13 @@ class HomeScreen extends StatelessWidget {
               height: 20,
             ),
             InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => CompletedFiles(),
+                    ));
+              },
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
