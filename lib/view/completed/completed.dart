@@ -44,7 +44,15 @@ class CompletedFiles extends StatelessWidget {
                           ),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [],
+                            children: [
+                              Column(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [],
+                              ),
+                              Icon(Icons.arrow_right)
+                            ],
                           ),
                         ),
                       ),
