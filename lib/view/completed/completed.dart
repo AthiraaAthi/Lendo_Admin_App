@@ -19,8 +19,7 @@ class CompletedFiles extends StatelessWidget {
             )),
         title: Text("Completed Files",
             style: TextStyle(
-              color: white,
-            )),
+                color: white, fontSize: 18, fontWeight: FontWeight.w500)),
       ),
     );
   }
