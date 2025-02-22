@@ -30,13 +30,16 @@ class CompletedFiles extends StatelessWidget {
             ListView.builder(
                 shrinkWrap: true,
                 itemCount: 4,
-                itemBuilder: (context, index) => Container(
-                      padding: EdgeInsets.all(15),
-                      height: 100,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                        color: lightBlue,
-                        borderRadius: BorderRadius.circular(10),
+                itemBuilder: (context, index) => Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        padding: EdgeInsets.all(15),
+                        height: 100,
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          color: lightBlue,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
                       ),
                     ))
           ],
