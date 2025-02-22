@@ -17,7 +17,10 @@ class CompletedFiles extends StatelessWidget {
               Icons.arrow_back_ios,
               color: white,
             )),
-        title: Text("Completed Files", style: TextStyle()),
+        title: Text("Completed Files",
+            style: TextStyle(
+              color: white,
+            )),
       ),
     );
   }
