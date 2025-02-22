@@ -42,6 +42,10 @@ class CompletedFiles extends StatelessWidget {
                             color: lightBlue,
                             borderRadius: BorderRadius.circular(10),
                           ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [],
+                          ),
                         ),
                       ),
                     ))
