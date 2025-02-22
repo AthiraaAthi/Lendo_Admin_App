@@ -21,6 +21,14 @@ class CompletedFiles extends StatelessWidget {
             style: TextStyle(
                 color: white, fontSize: 18, fontWeight: FontWeight.w500)),
       ),
+      body: Padding(
+        padding: const EdgeInsets.only(
+          top: 40,
+        ),
+        child: Column(
+          children: [],
+        ),
+      ),
     );
   }
 }
