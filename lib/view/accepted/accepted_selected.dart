@@ -10,8 +10,7 @@ class AcceptedSelectedScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Problem...",
             style: TextStyle(
-              color: white,
-            )),
+                color: white, fontSize: 18, fontWeight: FontWeight.w500)),
         backgroundColor: mainBlue,
         leading: IconButton(
             onPressed: () {
