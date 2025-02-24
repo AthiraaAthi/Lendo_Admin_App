@@ -8,7 +8,7 @@ class AcceptedSelectedScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Problem..."),
+        title: Text("Problem...", style: TextStyle()),
         backgroundColor: mainBlue,
         leading: IconButton(
             onPressed: () {
