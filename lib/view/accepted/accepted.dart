@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lendo_admin/utils/color_constant/color_constant.dart';
+import 'package:lendo_admin/view/accepted/accepted_selected.dart';
 
 class AcceptedFiles extends StatelessWidget {
   const AcceptedFiles({super.key});
@@ -31,7 +32,13 @@ class AcceptedFiles extends StatelessWidget {
               shrinkWrap: true,
               itemCount: 4,
               itemBuilder: (context, index) => InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => AcceptedSelectedScreen(),
+                      ));
+                },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
