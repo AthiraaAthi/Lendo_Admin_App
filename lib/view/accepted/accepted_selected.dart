@@ -26,7 +26,10 @@ class AcceptedSelectedScreen extends StatelessWidget {
         child: Column(
           children: [
             TextField(
-              decoration: InputDecoration(),
+              decoration: InputDecoration(
+                hintText: "Person Name:",
+                hintStyle: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+              ),
             ),
           ],
         ),
