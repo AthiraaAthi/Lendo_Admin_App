@@ -25,7 +25,9 @@ class AcceptedSelectedScreen extends StatelessWidget {
         padding: const EdgeInsets.all(15),
         child: Column(
           children: [
-            TextField(),
+            TextField(
+              decoration: InputDecoration(),
+            ),
           ],
         ),
       ),
