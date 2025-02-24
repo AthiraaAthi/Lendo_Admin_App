@@ -21,6 +21,9 @@ class AcceptedSelectedScreen extends StatelessWidget {
               color: white,
             )),
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
