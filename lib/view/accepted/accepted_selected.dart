@@ -53,6 +53,7 @@ class AcceptedSelectedScreen extends StatelessWidget {
             ),
             TextField(
               maxLines: 6,
+              decoration: InputDecoration(),
             ),
           ],
         ),
