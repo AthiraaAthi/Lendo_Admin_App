@@ -62,8 +62,8 @@ class AcceptedSelectedScreen extends StatelessWidget {
                   hintStyle:
                       TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8),
-                  )),
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: BorderSide.none)),
             ),
           ],
         ),
