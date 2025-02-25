@@ -51,7 +51,9 @@ class AcceptedSelectedScreen extends StatelessWidget {
             SizedBox(
               height: 15,
             ),
-            TextField(),
+            TextField(
+              maxLines: 6,
+            ),
           ],
         ),
       ),
