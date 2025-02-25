@@ -36,6 +36,9 @@ class AcceptedSelectedScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(8),
                       borderSide: BorderSide.none)),
             ),
+            SizedBox(
+              height: 15,
+            ),
           ],
         ),
       ),
