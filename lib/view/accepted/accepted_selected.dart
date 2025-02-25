@@ -53,7 +53,9 @@ class AcceptedSelectedScreen extends StatelessWidget {
             ),
             TextField(
               maxLines: 6,
-              decoration: InputDecoration(),
+              decoration: InputDecoration(
+                hintText: "What's the issue:",
+              ),
             ),
           ],
         ),
