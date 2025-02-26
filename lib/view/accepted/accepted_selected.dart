@@ -74,7 +74,10 @@ class AcceptedSelectedScreen extends StatelessWidget {
                 "Completed",
                 style: TextStyle(color: white),
               ),
-              style: ButtonStyle(),
+              style: ButtonStyle(
+                shape: WidgetStatePropertyAll(RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8))),
+              ),
             ),
           ],
         ),
