@@ -11,8 +11,7 @@ class CompletedSelectedScreen extends StatelessWidget {
         backgroundColor: mainBlue,
         title: Text("Problem...",
             style: TextStyle(
-              color: white,
-            )),
+                color: white, fontSize: 18, fontWeight: FontWeight.w500)),
         leading: IconButton(
             onPressed: () {
               Navigator.pop(context);
