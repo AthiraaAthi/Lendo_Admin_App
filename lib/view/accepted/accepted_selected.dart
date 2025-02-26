@@ -75,7 +75,7 @@ class AcceptedSelectedScreen extends StatelessWidget {
                 style: TextStyle(color: white),
               ),
               style: ButtonStyle(
-                  maximumSize: WidgetStatePropertyAll(Size(100, 50)),
+                  maximumSize: WidgetStatePropertyAll(Size(150, 50)),
                   shape: WidgetStatePropertyAll(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8))),
                   backgroundColor: WidgetStatePropertyAll(mainBlue)),
