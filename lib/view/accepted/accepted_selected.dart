@@ -68,6 +68,13 @@ class AcceptedSelectedScreen extends StatelessWidget {
             SizedBox(
               height: 100,
             ),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text(
+                "Completed",
+                style: TextStyle(color: white),
+              ),
+            ),
           ],
         ),
       ),
