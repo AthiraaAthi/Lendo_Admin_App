@@ -9,6 +9,9 @@ class CompletedSelectedScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: mainBlue,
+        title: Text(
+          "Problem...",
+        ),
         leading: IconButton(
             onPressed: () {
               Navigator.pop(context);
