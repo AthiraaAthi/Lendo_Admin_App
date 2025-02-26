@@ -74,6 +74,7 @@ class AcceptedSelectedScreen extends StatelessWidget {
                 "Completed",
                 style: TextStyle(color: white),
               ),
+              style: ButtonStyle(),
             ),
           ],
         ),
