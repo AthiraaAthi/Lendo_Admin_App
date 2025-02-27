@@ -21,8 +21,11 @@ class CompletedSelectedScreen extends StatelessWidget {
               color: white,
             )),
       ),
-      body: Column(
-        children: [],
+      body: Padding(
+        padding: const EdgeInsets.all(15),
+        child: Column(
+          children: [],
+        ),
       ),
     );
   }
