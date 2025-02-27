@@ -40,7 +40,9 @@ class CompletedSelectedScreen extends StatelessWidget {
               height: 15,
             ),
             TextField(
-              decoration: InputDecoration(),
+              decoration: InputDecoration(
+                hintText: "Phone Number:",
+              ),
             ),
           ],
         ),
