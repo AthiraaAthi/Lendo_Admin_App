@@ -43,6 +43,8 @@ class CompletedSelectedScreen extends StatelessWidget {
               decoration: InputDecoration(
                 hintText: "Phone Number:",
                 hintStyle: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                filled: true,
+                fillColor: lightBlue,
               ),
             ),
           ],
