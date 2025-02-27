@@ -26,7 +26,9 @@ class CompletedSelectedScreen extends StatelessWidget {
         child: Column(
           children: [
             TextField(
-              decoration: InputDecoration(),
+              decoration: InputDecoration(
+                hintText: "Person Name:",
+              ),
             ),
           ],
         ),
