@@ -21,7 +21,9 @@ class CompletedSelectedScreen extends StatelessWidget {
               color: white,
             )),
       ),
-      body: Column(),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
