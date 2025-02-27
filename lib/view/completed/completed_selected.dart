@@ -41,11 +41,14 @@ class CompletedSelectedScreen extends StatelessWidget {
             ),
             TextField(
               decoration: InputDecoration(
-                hintText: "Phone Number:",
-                hintStyle: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
-                filled: true,
-                fillColor: lightBlue,
-              ),
+                  hintText: "Phone Number:",
+                  hintStyle:
+                      TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                  filled: true,
+                  fillColor: lightBlue,
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      borderSide: BorderSide.none)),
             ),
           ],
         ),
