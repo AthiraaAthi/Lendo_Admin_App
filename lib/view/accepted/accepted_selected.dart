@@ -28,9 +28,7 @@ class AcceptedSelectedScreen extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                   hintText: "Person Name:",
-                  hintStyle: TextStyle(
-                    fontSize: 14,
-                  ),
+                  hintStyle: TextStyle(fontSize: 14, color: Colors.black),
                   filled: true,
                   fillColor: lightBlue,
                   border: OutlineInputBorder(
