@@ -53,7 +53,9 @@ class CompletedSelectedScreen extends StatelessWidget {
             SizedBox(
               height: 15,
             ),
-            TextField(),
+            TextField(
+              maxLines: 6,
+            ),
           ],
         ),
       ),
