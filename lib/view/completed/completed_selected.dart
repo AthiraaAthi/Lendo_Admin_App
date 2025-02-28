@@ -58,6 +58,7 @@ class CompletedSelectedScreen extends StatelessWidget {
               decoration: InputDecoration(
                 filled: true,
                 fillColor: lightBlue,
+                hintText: "What's the issue:",
               ),
             ),
           ],
