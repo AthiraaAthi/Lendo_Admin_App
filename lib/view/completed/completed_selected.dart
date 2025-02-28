@@ -61,7 +61,9 @@ class CompletedSelectedScreen extends StatelessWidget {
                   hintText: "What's the issue:",
                   hintStyle:
                       TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
-                  border: OutlineInputBorder()),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8),
+                  )),
             ),
           ],
         ),
