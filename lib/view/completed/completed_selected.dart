@@ -57,6 +57,7 @@ class CompletedSelectedScreen extends StatelessWidget {
               maxLines: 6,
               decoration: InputDecoration(
                 filled: true,
+                fillColor: lightBlue,
               ),
             ),
           ],
