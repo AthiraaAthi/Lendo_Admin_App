@@ -55,7 +55,9 @@ class CompletedSelectedScreen extends StatelessWidget {
             ),
             TextField(
               maxLines: 6,
-              decoration: InputDecoration(),
+              decoration: InputDecoration(
+                filled: true,
+              ),
             ),
           ],
         ),
