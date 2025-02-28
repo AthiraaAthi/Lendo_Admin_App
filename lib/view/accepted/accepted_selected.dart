@@ -42,8 +42,7 @@ class AcceptedSelectedScreen extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                   hintText: "Phone Number:",
-                  hintStyle:
-                      TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                  hintStyle: TextStyle(fontSize: 14, color: Colors.black),
                   filled: true,
                   fillColor: lightBlue,
                   border: OutlineInputBorder(
