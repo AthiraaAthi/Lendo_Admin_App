@@ -56,11 +56,12 @@ class CompletedSelectedScreen extends StatelessWidget {
             TextField(
               maxLines: 6,
               decoration: InputDecoration(
-                filled: true,
-                fillColor: lightBlue,
-                hintText: "What's the issue:",
-                hintStyle: TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
-              ),
+                  filled: true,
+                  fillColor: lightBlue,
+                  hintText: "What's the issue:",
+                  hintStyle:
+                      TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
+                  border: OutlineInputBorder()),
             ),
           ],
         ),
